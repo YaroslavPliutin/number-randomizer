@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="manifest" href="manifest.json">
+  <title>Number Randomizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="phone">
+
+    <div id="blackPanel">
+      <div id="header">
+        POOL: <span id="poolValue"></span>
+        &nbsp;&nbsp;&nbsp;
+        QUESTIONS: <span id="questionsValue"></span>
+        <input id="poolInput" type="number" placeholder="0">
+        <input id="testsInput" type="number" placeholder="0">
+      </div>
+
+      <div id="output"></div>
+
+      <div id="resultPanel">
+        <div id="resultPercent"></div>
+        <div class="resultRow">
+          <span id="correctCount"></span>
+          <span id="wrongCount"></span>
+        </div>
+      </div>
+
+      <div id="statPanel"></div>
+    </div>
+
+    <div id="whitePanel">
+
+      <div id="answerButtons">
+        <button id="plusButton">+</button>
+        <button id="minusButton">-</button>
+      </div>
+
+      <button id="randomButton">RANDOM</button>
+      <button id="statsButton">STAT</button>
+
+    </div>
+
+  </div>
+
+  <script src="web.js"></script>
+</body>
+</html>

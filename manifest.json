@@ -1,0 +1,15 @@
+{
+  "name": "Number Randomizer",
+  "short_name": "Randomizer",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "icon.png",
+      "sizes": "124x124",
+      "type": "image/png"
+    }
+  ]
+}
